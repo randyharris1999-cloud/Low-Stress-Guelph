@@ -9,28 +9,6 @@ A bike map of Guelph, Ontario that rates every street and path for **traffic str
 - **Islands:** the connected low-stress networks and the gaps between them. Today the largest island reaches 37% of Guelph's addresses.
 - **Bike lanes:** Guelph's cycling infrastructure by type.
 
-## Publish on GitHub Pages
-1. Create a new public repository, for example `Low-Stress-Guelph`.
-2. Open this folder, select **everything inside it** and drag it into GitHub's "uploading an existing file" page. Don't drag the folder itself. Commit.
-3. Go to **Settings > Pages**, choose **Deploy from a branch**, then `main` and `/ (root)`, and save.
-4. Your site will be at `https://randyharris1999-cloud.github.io/Low-Stress-Guelph/`.
-
-No relay or setup is needed. Everything the app uses is in `data/`.
-
-## Test locally
-```
-python -m http.server 8000
-```
-Then open http://localhost:8000.
-
-## Data
-| Data | Source |
-|---|---|
-| Street centrelines (speed, lanes, class, one-way), bike facilities, trails, signalized intersections, addresses, buildings, parks, watercourses | City of Guelph Open Data |
-| Elevation | AWS Terrain Tiles (Mapzen), derived from Canadian government elevation data, ~30 m |
-
-`scripts/build_bike.py` builds `data/network.json` from those layers. The file paths at the top point to where it first ran.
-
 ## Notes
 - Ratings are estimates from City data. Parked cars, traffic volumes and pavement condition aren't in the data. Always ride to the conditions you find.
 - The 30 m elevation model smooths short, steep blocks. Ontario's LiDAR terrain model (Ontario GeoHub) would sharpen the grades.

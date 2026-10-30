@@ -1,0 +1,16 @@
+Copyright © 2026 Randy Harris. All rights reserved.
+
+This repository contains the source code, design and layout of the Low-Stress Guelph
+web app. It is not open source and no licence is granted.
+
+You may use the published app and view this repository on GitHub, as allowed
+by GitHub's Terms of Service. You may not copy, modify, merge, publish,
+distribute, sublicense, sell, or create derivative works from any part of the
+code or design without the prior written permission of the copyright holder.
+
+Third-party components keep their own licences:
+- Leaflet (leaflet.min.js and the embedded Leaflet CSS): BSD 2-Clause,
+  © Volodymyr Agafonkin and CloudMade.
+- Data in data/: City of Guelph Open Government Licence; Ontario Digital Terrain Model under the Open Government Licence – Ontario; © OpenStreetMap contributors (ODbL).
+
+For permission requests, contact Randy Harris.

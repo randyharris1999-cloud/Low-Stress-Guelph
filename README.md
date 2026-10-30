@@ -45,3 +45,11 @@ python scripts/build_html.py
 Run it again after rebuilding the network with `scripts/build_bike.py`, which still reads the old 30 m grid.
 
 An independent project built on City of Guelph open data. Not an official City of Guelph service.
+
+## Copyright
+
+© 2026 Randy Harris. All rights reserved.
+
+The code, design and layout of Low-Stress Guelph are not open source. You're welcome to use the app and to view this repository on GitHub, but you may not copy, modify, redistribute or republish the code or design, in whole or in part, without written permission. See [LICENSE](LICENSE).
+
+The data the app displays stays under its own licences: City of Guelph Open Government Licence; Ontario Digital Terrain Model under the Open Government Licence – Ontario; © OpenStreetMap contributors (ODbL).
